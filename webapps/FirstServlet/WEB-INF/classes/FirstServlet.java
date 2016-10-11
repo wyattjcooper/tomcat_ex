@@ -11,10 +11,10 @@ public class FirstServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
-        out.println("<title>Hello malea!</title>");
+        out.println("<title>Hi malea!</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1>Hello malea!</h1>");
+        out.println("<h1>Hi malea!</h1>");
         out.println("</body>");
         out.println("</html>");
     }
